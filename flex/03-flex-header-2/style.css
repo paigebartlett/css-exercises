@@ -49,18 +49,18 @@ ul {
 
 /* solution starts here */
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
 .right-nav,
 .left-nav,
 ul {
   display: flex;
   gap: 15px;
   align-items: center;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
 }
 
 ul {
