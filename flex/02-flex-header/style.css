@@ -18,6 +18,14 @@ ul {
   display: flex;
 }
 
+.left-links {
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
+}
+
 a {
   font-size: 22px;
   background: white;
