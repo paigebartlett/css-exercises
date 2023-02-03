@@ -52,7 +52,9 @@ ul {
 .right-nav,
 .left-nav,
 ul {
+  display: flex;
   gap: 15px;
+  align-items: center;
 }
 
 .header {
@@ -62,21 +64,7 @@ ul {
   padding: 5px;
 }
 
-.right-nav {
-  display: flex;
-}
-
-.left-nav {
-  display: flex;
-}
-
 ul {
-  display: flex;
   padding: 0;
   margin: 0;
-  align-items: center;
-}
-
-button {
-  align-self: center;
 }
