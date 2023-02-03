@@ -59,6 +59,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 5px;
 }
 
 .right-nav {
@@ -74,4 +75,8 @@ ul {
   padding: 0;
   margin: 0;
   align-items: center;
+}
+
+button {
+  align-self: center;
 }
