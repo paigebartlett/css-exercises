@@ -49,6 +49,12 @@ ul {
 
 /* solution starts here */
 
+.right-nav,
+.left-nav,
+ul {
+  gap: 15px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
